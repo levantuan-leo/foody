@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable-v24/button3_bg.xml" value="0.181" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable-v24/corners_radius.xml" value="0.181" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable-v24/ic_group_401.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.203" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/border.xml" value="0.1725" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/border_radius.xml" value="0.1725" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/border_radius_white.xml" value="0.1705" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/box_shadow.xml" value="0.181" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/button1_bg.xml" value="0.1885" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/button2_bg.xml" value="0.172" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/button3_bg.xml" value="0.181" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_account.xml" value="0.1705" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_arrow_back_black_24dp.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_arrow_white_white_24dp.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_bookmark_checked.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_cart.xml" value="0.1855" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_group_400.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_group_401.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_launcher_background.xml" value="0.203" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_like.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_location_icon.xml" value="0.1705" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_mdi_star_rate.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/ic_search_black_24dp.xml" value="0.203" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_card_giftcard_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_feedback_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_history_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_logout_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_payment_24.xml" value="0.155" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_person_add_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_policy_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_receipt_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_sell_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/outline_settings_24.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/round_outline.xml" value="0.181" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/search_bg.xml" value="0.1295" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/drawable/time_bg.xml" value="0.1725" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/font/open_sans_semibold.xml" value="0.234375" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout-w1240dp/fragment_invoice.xml" value="0.155078125" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/account_option_line.xml" value="0.22" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_action_bar.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_cart.xml" value="0.33" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_food_details.xml" value="0.22" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_forgot_password.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_home.xml" value="0.10526315789473684" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_profile.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_register.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_restaurant.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_restaurant_details.xml" value="0.2" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_search.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/allmenu_recycler_items.xml" value="0.33" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/fragment_account.xml" value="0.24220183486238533" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/fragment_favorite.xml" value="0.1359375" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/fragment_favourite.xml" value="0.1359375" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/fragment_home.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/fragment_invoice.xml" value="0.33" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/fragment_invoice_draft.xml" value="0.1" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/fragment_invoice_history.xml" value="0.2109375" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/fragment_invoice_ongoing.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_account_option.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_allmenu_recycler.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_cart.xml" value="0.5" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_favorite_food.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_history.xml" value="0.22" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_ongoing.xml" value="0.33" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_popular_recycler.xml" value="0.33" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_recommended_recycler.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_restaurant_recycler.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/items_search.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/popular_recycler_items.xml" value="0.33" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/recommended_recycler_items.xml" value="0.15462962962962962" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/layout/row_favorite_food.xml" value="0.1359375" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/menu/menu_bottom_navigation.xml" value="0.225" />
+        <entry key="..\:/hcmute/android/project/foody/app/src/main/res/menu/menu_invoice_navigation.xml" value="0.225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

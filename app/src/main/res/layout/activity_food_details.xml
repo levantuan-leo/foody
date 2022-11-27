@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageView_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cart" />
+
+    <ImageView
+        android:id="@+id/imageView_picture"
+        android:layout_width="0dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_back"
+        app:srcCompat="@drawable/recommended1" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="Nasi Padang"
+        android:textColor="#333333"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_picture" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:max="5"
+        android:rating="3.5"
+        android:scaleX=".85"
+        android:scaleY=".85"
+        android:theme="@style/RatingBar"
+        android:transformPivotX="0dp"
+        android:transformPivotY="0dp"
+        app:layout_constraintStart_toStartOf="@+id/name"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.3"
+        app:layout_constraintBottom_toBottomOf="@+id/ratingBar"
+        app:layout_constraintStart_toEndOf="@+id/ratingBar"
+        app:layout_constraintTop_toTopOf="@+id/ratingBar" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name"
+        app:srcCompat="@drawable/ic_bookmark_unchecked" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="199.000 đ"
+        android:textColor="#ed1c24"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/price"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/price">
+
+        <ImageView
+            android:id="@+id/imageView_decrease"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_group_400" />
+
+        <TextView
+            android:id="@+id/textView_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="01"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView_increase"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_group_401" />
+
+    </LinearLayout>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/restaurant_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/box_shadow"
+        android:elevation="2dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/price"
+        app:layout_constraintTop_toBottomOf="@+id/price"
+        app:shapeAppearanceOverlay="@style/roundOutline2"
+        app:srcCompat="@drawable/restaurant2" />
+
+    <TextView
+        android:id="@+id/textView_nameRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="textView"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/restaurant_image"
+        app:layout_constraintTop_toBottomOf="@id/price" />
+
+    <TextView
+        android:layout_marginStart="10dp"
+        android:text="textView"
+        app:layout_constraintTop_toBottomOf="@id/textView_nameRes"
+        app:layout_constraintLeft_toRightOf="@id/restaurant_image"
+        android:id="@+id/textView_addressRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/restaurant_image"
+        app:layout_constraintTop_toBottomOf="@+id/restaurant_image" />
+
+    <Button
+        android:id="@+id/button_addToCart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button1_bg"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/add_to_cart"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
